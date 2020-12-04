@@ -1,10 +1,11 @@
-// console.log("hello world");
+console.log("hello world");
 
 var app = new Vue(
  {
- el: '#hello-world',
+ el: '.hello_world',
  data: {
-   message: "hello world"
+   message: "hello world",
+   imgUrl: "img/hello_world.jpg",
  }
  }
 );
